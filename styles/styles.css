@@ -273,6 +273,11 @@ iframe {
         max-width: 600px;
     }
 
+    
+    #description_project{
+        width: 300px;
+    }
+
     iframe {
         padding: 20px 0;
         width: 300px;
