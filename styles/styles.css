@@ -238,8 +238,16 @@ iframe {
         margin-bottom: 0;
     }
 
+    
+    #card_presentation {
+        border: solid 2px #0000003f;
+        border-radius: 15px;
+        margin: 15px 40px;
+        padding: 0 30px;
+    }
+
     #about {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     #about img {
@@ -309,6 +317,11 @@ iframe {
     body {
         font-size: 16px;
     }
+
+    #about {
+        flex-direction: column;
+    }
+
     #project_1, #project_2 {
         flex-direction: column; 
         align-items: center;
