@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Martel', serif;
     font-size: 24px;
     /* 
     background: linear-gradient(to top, #ffffff, #a6c8f5, #ffffff);
@@ -30,7 +30,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #417dd8;
+    transition: background-color 3s ease;
+    color: #1558bd;
 }
 
 nav button:hover {
@@ -226,10 +227,16 @@ iframe {
     justify-content: space-around;
 }
 
-#contact li {
+#contact li{
+    display: flex;
+    min-width: 110px;
+    flex-direction: column;
+    background-color: #09306459;
+    border-radius: 15px;
     list-style: none;
-    margin-bottom: 10px;
+    padding: 10px;
 }
+
 
 #contact img {
     width: 30px;
@@ -333,6 +340,9 @@ iframe {
 
     #contact ul {
         flex-direction: row;
+    }
+    #contact li{
+        min-width: 50px;
     }
 }
 
