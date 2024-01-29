@@ -2,10 +2,13 @@ body {
     margin: 0;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 24px;
-    background-image: url("/data.jpg");
+    background: linear-gradient(to top, #ffffff, #a6c8f5, #ffffff);
+    /* 
+    background-image: url("/img/data_2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
+    */
 }
 
 
