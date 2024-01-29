@@ -2,17 +2,19 @@ body {
     margin: 0;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 24px;
+    background-image: url("/img/data_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
-header {
-    background: linear-gradient(to right, #9ec6fa, #86B6F6);
-    padding: 0 15px;
-}
+
 
 nav {
+    background-color: #a6c8f5;
     display: flex;
     margin-bottom: 40px;
-    padding: 5px 10px ;
+    padding: 15px 10px ;
     justify-content: space-between;
 }
 
@@ -76,7 +78,7 @@ nav a {
     justify-content: center;
     margin: 80px 0px;
     padding: 0 20px;
-    background: linear-gradient(to top, #ffffff, #a6c8f5, #ffffff);
+    /* background: linear-gradient(to top, #ffffff, #a6c8f5, #ffffff); */
 }
 
 #about img {
@@ -90,9 +92,10 @@ nav a {
     margin: 50px;
 }
 
+ /* 
 #portfolio {
-    background: linear-gradient(to top, #ffffff, #a6c8f5, #ffffff);
-}
+   background: linear-gradient(to top, #ffffff, #a6c8f5, #ffffff);
+} */
 
 #portfolio h1 {
     margin-bottom: 20px;
@@ -147,6 +150,7 @@ nav a {
 iframe {
     width: 560px;
     height: 315px;
+    border-radius: 15px;
 }
 
 #description_project{
@@ -194,6 +198,12 @@ iframe {
     text-align: center;
 }
 
+.technologie_card:hover {
+    transition: background-color 3s ease;
+    border-radius: 15%;
+    background-color: #a6c8f5;
+}
+
 #contact {
     margin: 60px;
     text-align: center;
@@ -224,6 +234,11 @@ iframe {
     margin-right: 0;
 }
 
+#contact li:hover {
+    transition: background-color 3s ease;
+    border-radius: 15%;
+    background-color: #a6c8f5;
+}
 @media (max-width: 768px) {
     body {
         font-size: 16px;
@@ -293,7 +308,7 @@ iframe {
     }
 
     #technologies_icons {
-        max-width: 30%;
+        max-width: 60%;
         flex-direction: row;
     }
 
